@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 10px;
+  border-top: 1px solid #252525;
+  font-family: 'Blender Pro';
+  font-weight: 300;
+  &__col {
+    margin: 15px 10px;
+    &-wrapper {
+      display: flex;
+      column-gap: 10px;
+      margin-top: 20px;
+    }
+    &-firstItem {
+      width: 200px;
+    }
+    &-links {
+      display: flex;
+      margin-top: 20px;
+    }
+    &-link {
+      display: block;
+      width: 48px;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  &__logo {
+    img {
+      width: 100px;
+      margin-top: 15px;
+    }
+  }
+  &__title {
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 100% */
+  }
+  &__text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 24px; /* 100% */
+  }
+  &__link {
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 24px;
+    color: #252525;
+    text-decoration: none;
+    &-first {
+      margin-top: 20px;
+    }
+    &-w135 {
+      width: 135px;
+    }
+    img {
+      width: 66px;
+    }
+  }
+  &__phone {
+    display: block;
+    color: #252525;
+    font-family: Blender Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  &__devider {
+    width: 1px;
+    height: 235px;
+    background-color: black;
+    margin: 0 10px 0 10px;
+  }
+}
